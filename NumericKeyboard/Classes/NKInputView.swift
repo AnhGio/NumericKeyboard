@@ -393,7 +393,7 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             let decimalChar = (Locale.current as NSLocale).object(forKey: NSLocale.Key.decimalSeparator) as? String ?? "."
             let buttonsValues = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", decimalChar, "+"]
             let char = buttonsValues[sender.tag]
-            textView?.insertText(char)
+//            textView?.insertText(char)
             
             if keyboardType == .numberPadWithMovingControl, let textView = textView,
                 let selectedRange = textView.selectedTextRange {
@@ -403,8 +403,12 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
                 if cursorPosition < textCount,
                     let replaceRange = textView.textRange(from: textView.position(from: selectedRange.start, offset: 0)!,
                                                           to: textView.position(from: selectedRange.start, offset: 1)!) {
-                    textView.replace(replaceRange, withText: "")
+                    textView.replace(replaceRange, withText: char)
+                } else {
+                    textView.insertText(char)
                 }
+            } else {
+                textView?.insertText(char)
             }
             
             if isTextField() {

@@ -11,6 +11,10 @@ provides-member:
 - ["15NumericKeyboard11NKInputViewC14NKKeyboardTypeO", ""]
 - ["15NumericKeyboard11NKInputViewC23NKKeyboardReturnKeyTypeO", ""]
 - ["15NumericKeyboard11NKInputViewC21AdditionalButtonIndexO", ""]
+- ["So11UITextFieldC", ""]
+- ["So10UITextViewC", ""]
+- ["So11UITextFieldC", "textDidChangeSelectionRangeNotification"]
+- ["So10UITextViewC", "textDidChangeSelectionRangeNotification"]
 provides-dynamic-lookup:
 - "additionalButtonTouched"
 - "bBackward"
@@ -45,19 +49,20 @@ depends-top-level:
 - "NKKeyboardButton"
 - !private "NSLocale"
 - !private "NSLocalizedString"
+- "NSNotification"
 - !private "NotificationCenter"
 - "String"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "UIButton"
 - "UIColor"
 - !private "UIControl"
 - !private "UIDevice"
 - "UIInputViewAudioFeedback"
 - !private "UINib"
-- !private "UITextField"
+- "UITextField"
 - "UITextInput"
 - !private "UITextInputAssistantItem"
-- !private "UITextView"
+- "UITextView"
 - !private "UIUserInterfaceIdiom"
 - "UIView"
 - !private "UnicodeScalarType"
@@ -87,6 +92,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "NKInputView"]
 - !private ["So15CALayerDelegateP", "NSLocale"]
 - !private ["So15CALayerDelegateP", "NSLocalizedString"]
+- ["So15CALayerDelegateP", "NSNotification"]
 - !private ["So15CALayerDelegateP", "NotificationCenter"]
 - !private ["So15CALayerDelegateP", "State"]
 - !private ["So15CALayerDelegateP", "TAG_B_BACKWARD"]
@@ -146,6 +152,8 @@ depends-member:
 - !private ["s7CVarArgP", "NKInputView"]
 - !private ["s7CVarArgP", "NSLocale"]
 - !private ["s7CVarArgP", "NSLocalizedString"]
+- ["s7CVarArgP", "NSNotification"]
+- ["s7CVarArgP", "Name"]
 - !private ["s7CVarArgP", "NotificationCenter"]
 - !private ["s7CVarArgP", "State"]
 - !private ["s7CVarArgP", "TAG_B_BACKWARD"]
@@ -222,6 +230,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "NKInputView"]
 - !private ["s28CustomDebugStringConvertibleP", "NSLocale"]
 - !private ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- ["s28CustomDebugStringConvertibleP", "NSNotification"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
 - !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
 - !private ["s28CustomDebugStringConvertibleP", "State"]
 - !private ["s28CustomDebugStringConvertibleP", "TAG_B_BACKWARD"]
@@ -303,6 +313,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "NKInputView"]
 - !private ["s23CustomStringConvertibleP", "NSLocale"]
 - !private ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- ["s23CustomStringConvertibleP", "NSNotification"]
+- ["s23CustomStringConvertibleP", "Name"]
 - !private ["s23CustomStringConvertibleP", "NotificationCenter"]
 - !private ["s23CustomStringConvertibleP", "State"]
 - !private ["s23CustomStringConvertibleP", "TAG_B_BACKWARD"]
@@ -398,6 +410,8 @@ depends-member:
 - !private ["SQ", "NKInputView"]
 - !private ["SQ", "NSLocale"]
 - !private ["SQ", "NSLocalizedString"]
+- ["SQ", "NSNotification"]
+- ["SQ", "Name"]
 - !private ["SQ", "NotificationCenter"]
 - ["SQ", "RawValue"]
 - !private ["SQ", "State"]
@@ -498,6 +512,8 @@ depends-member:
 - !private ["SH", "NKInputView"]
 - !private ["SH", "NSLocale"]
 - !private ["SH", "NSLocalizedString"]
+- ["SH", "NSNotification"]
+- ["SH", "Name"]
 - !private ["SH", "NotificationCenter"]
 - ["SH", "RawValue"]
 - !private ["SH", "State"]
@@ -688,6 +704,8 @@ depends-member:
 - !private ["So8NSCodingP", "NKInputView"]
 - !private ["So8NSCodingP", "NSLocale"]
 - !private ["So8NSCodingP", "NSLocalizedString"]
+- ["So8NSCodingP", "NSNotification"]
+- ["So8NSCodingP", "Name"]
 - !private ["So8NSCodingP", "NotificationCenter"]
 - !private ["So8NSCodingP", "State"]
 - !private ["So8NSCodingP", "TAG_B_BACKWARD"]
@@ -741,6 +759,7 @@ depends-member:
 - !private ["So8NSCodingP", "textView"]
 - !private ["So8NSCodingP", "white"]
 - !private ["So9NSCopyingP", "Key"]
+- ["So9NSCopyingP", "Name"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "object"]
 - !private ["So9NSCopyingP", "white"]
@@ -750,6 +769,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "white"]
 - !private ["So8NSLocaleC", "Key"]
 - !private ["So8NSLocaleC", "object"]
+- ["So14NSNotificationC", "Name"]
 - ["So8NSObjectC", "AdditionalButtonIndex"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "Bundle"]
@@ -764,6 +784,8 @@ depends-member:
 - ["So8NSObjectC", "NKKeyboardType"]
 - !private ["So8NSObjectC", "NSLocale"]
 - !private ["So8NSObjectC", "NSLocalizedString"]
+- ["So8NSObjectC", "NSNotification"]
+- ["So8NSObjectC", "Name"]
 - !private ["So8NSObjectC", "NotificationCenter"]
 - !private ["So8NSObjectC", "State"]
 - ["So8NSObjectC", "String"]
@@ -828,6 +850,7 @@ depends-member:
 - !private ["So8NSObjectC", "start"]
 - !private ["So8NSObjectC", "tag"]
 - !private ["So8NSObjectC", "textDidChangeNotification"]
+- ["So8NSObjectC", "textDidChangeSelectionRangeNotification"]
 - ["So8NSObjectC", "textView"]
 - !private ["So8NSObjectC", "trailingBarButtonGroups"]
 - !private ["So8NSObjectC", "url"]
@@ -842,6 +865,8 @@ depends-member:
 - !private ["So8NSObjectP", "NKInputView"]
 - !private ["So8NSObjectP", "NSLocale"]
 - !private ["So8NSObjectP", "NSLocalizedString"]
+- ["So8NSObjectP", "NSNotification"]
+- ["So8NSObjectP", "Name"]
 - !private ["So8NSObjectP", "NotificationCenter"]
 - !private ["So8NSObjectP", "State"]
 - !private ["So8NSObjectP", "TAG_B_BACKWARD"]
@@ -918,6 +943,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "object"]
 - !private ["So14NSSecureCodingP", "white"]
+- ["So18NSNotificationNamea", "init"]
 - !private ["So20NSNotificationCenterC", "default"]
 - !private ["So20NSNotificationCenterC", "post"]
 - !private ["s9OptionSetP", "normal"]
@@ -970,6 +996,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "NKInputView"]
 - !private ["So29UIAccessibilityIdentificationP", "NSLocale"]
 - !private ["So29UIAccessibilityIdentificationP", "NSLocalizedString"]
+- ["So29UIAccessibilityIdentificationP", "NSNotification"]
 - !private ["So29UIAccessibilityIdentificationP", "NotificationCenter"]
 - !private ["So29UIAccessibilityIdentificationP", "State"]
 - !private ["So29UIAccessibilityIdentificationP", "TAG_B_BACKWARD"]
@@ -1027,6 +1054,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "NKInputView"]
 - !private ["So12UIAppearanceP", "NSLocale"]
 - !private ["So12UIAppearanceP", "NSLocalizedString"]
+- ["So12UIAppearanceP", "NSNotification"]
 - !private ["So12UIAppearanceP", "NotificationCenter"]
 - !private ["So12UIAppearanceP", "State"]
 - !private ["So12UIAppearanceP", "TAG_B_BACKWARD"]
@@ -1084,6 +1112,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "NKInputView"]
 - !private ["So21UIAppearanceContainerP", "NSLocale"]
 - !private ["So21UIAppearanceContainerP", "NSLocalizedString"]
+- ["So21UIAppearanceContainerP", "NSNotification"]
 - !private ["So21UIAppearanceContainerP", "NotificationCenter"]
 - !private ["So21UIAppearanceContainerP", "State"]
 - !private ["So21UIAppearanceContainerP", "TAG_B_BACKWARD"]
@@ -1142,12 +1171,14 @@ depends-member:
 - !private ["So8UIButtonC", "tag"]
 - !private ["So7UIColorC", "init"]
 - !private ["So7UIColorC", "white"]
+- ["So30UIContentSizeCategoryAdjustingP", "NSNotification"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "delegate"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "inputAssistantItem"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "inputView"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textDidChangeNotification"]
 - !private ["So9UIControlC", "Event"]
+- ["So9UIControlC", "NSNotification"]
 - !private ["So9UIControlC", "State"]
 - !private ["So9UIControlC", "addTarget"]
 - !private ["So9UIControlC", "delegate"]
@@ -1160,6 +1191,7 @@ depends-member:
 - !private ["So9UIControlC", "setTitle"]
 - !private ["So9UIControlC", "tag"]
 - !private ["So9UIControlC", "textDidChangeNotification"]
+- ["So9UIControlC", "textDidChangeSelectionRangeNotification"]
 - !private ["So17UICoordinateSpaceP", "Bundle"]
 - !private ["So17UICoordinateSpaceP", "CGSize"]
 - !private ["So17UICoordinateSpaceP", "Event"]
@@ -1167,6 +1199,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "NKInputView"]
 - !private ["So17UICoordinateSpaceP", "NSLocale"]
 - !private ["So17UICoordinateSpaceP", "NSLocalizedString"]
+- ["So17UICoordinateSpaceP", "NSNotification"]
 - !private ["So17UICoordinateSpaceP", "NotificationCenter"]
 - !private ["So17UICoordinateSpaceP", "State"]
 - !private ["So17UICoordinateSpaceP", "TAG_B_BACKWARD"]
@@ -1227,6 +1260,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "NKInputView"]
 - !private ["So13UIDynamicItemP", "NSLocale"]
 - !private ["So13UIDynamicItemP", "NSLocalizedString"]
+- ["So13UIDynamicItemP", "NSNotification"]
 - !private ["So13UIDynamicItemP", "NotificationCenter"]
 - !private ["So13UIDynamicItemP", "State"]
 - !private ["So13UIDynamicItemP", "TAG_B_BACKWARD"]
@@ -1284,6 +1318,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "NKInputView"]
 - !private ["So18UIFocusEnvironmentP", "NSLocale"]
 - !private ["So18UIFocusEnvironmentP", "NSLocalizedString"]
+- ["So18UIFocusEnvironmentP", "NSNotification"]
 - !private ["So18UIFocusEnvironmentP", "NotificationCenter"]
 - !private ["So18UIFocusEnvironmentP", "State"]
 - !private ["So18UIFocusEnvironmentP", "TAG_B_BACKWARD"]
@@ -1341,6 +1376,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "NKInputView"]
 - !private ["So11UIFocusItemP", "NSLocale"]
 - !private ["So11UIFocusItemP", "NSLocalizedString"]
+- ["So11UIFocusItemP", "NSNotification"]
 - !private ["So11UIFocusItemP", "NotificationCenter"]
 - !private ["So11UIFocusItemP", "State"]
 - !private ["So11UIFocusItemP", "TAG_B_BACKWARD"]
@@ -1398,6 +1434,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "NKInputView"]
 - !private ["So20UIFocusItemContainerP", "NSLocale"]
 - !private ["So20UIFocusItemContainerP", "NSLocalizedString"]
+- ["So20UIFocusItemContainerP", "NSNotification"]
 - !private ["So20UIFocusItemContainerP", "NotificationCenter"]
 - !private ["So20UIFocusItemContainerP", "State"]
 - !private ["So20UIFocusItemContainerP", "TAG_B_BACKWARD"]
@@ -1448,6 +1485,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "tag"]
 - !private ["So20UIFocusItemContainerP", "textDidChangeNotification"]
 - !private ["So20UIFocusItemContainerP", "textView"]
+- ["So30UIFocusItemScrollableContainerP", "NSNotification"]
 - !private ["So30UIFocusItemScrollableContainerP", "inputAssistantItem"]
 - !private ["So30UIFocusItemScrollableContainerP", "inputView"]
 - !private ["So30UIFocusItemScrollableContainerP", "resignFirstResponder"]
@@ -1495,6 +1533,7 @@ depends-member:
 - !private ["So24UIInputViewAudioFeedbackP", "removeToolbar"]
 - !private ["So24UIInputViewAudioFeedbackP", "setup"]
 - !private ["So24UIInputViewAudioFeedbackP", "textView"]
+- ["So10UIKeyInputP", "NSNotification"]
 - !private ["So10UIKeyInputP", "beginningOfDocument"]
 - !private ["So10UIKeyInputP", "delegate"]
 - !private ["So10UIKeyInputP", "deleteBackward"]
@@ -1516,6 +1555,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "NKInputView"]
 - !private ["So24UILargeContentViewerItemP", "NSLocale"]
 - !private ["So24UILargeContentViewerItemP", "NSLocalizedString"]
+- ["So24UILargeContentViewerItemP", "NSNotification"]
 - !private ["So24UILargeContentViewerItemP", "NotificationCenter"]
 - !private ["So24UILargeContentViewerItemP", "State"]
 - !private ["So24UILargeContentViewerItemP", "TAG_B_BACKWARD"]
@@ -1575,6 +1615,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "NKInputView"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLocale"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSLocalizedString"]
+- ["So30UIPasteConfigurationSupportingP", "NSNotification"]
 - !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
 - !private ["So30UIPasteConfigurationSupportingP", "State"]
 - !private ["So30UIPasteConfigurationSupportingP", "TAG_B_BACKWARD"]
@@ -1638,6 +1679,7 @@ depends-member:
 - ["So11UIResponderC", "NKKeyboardType"]
 - !private ["So11UIResponderC", "NSLocale"]
 - !private ["So11UIResponderC", "NSLocalizedString"]
+- ["So11UIResponderC", "NSNotification"]
 - !private ["So11UIResponderC", "NotificationCenter"]
 - !private ["So11UIResponderC", "State"]
 - ["So11UIResponderC", "String"]
@@ -1694,6 +1736,7 @@ depends-member:
 - ["So11UIResponderC", "setup"]
 - !private ["So11UIResponderC", "tag"]
 - !private ["So11UIResponderC", "textDidChangeNotification"]
+- ["So11UIResponderC", "textDidChangeSelectionRangeNotification"]
 - ["So11UIResponderC", "textView"]
 - ["So11UIResponderC", "with"]
 - !private ["So30UIResponderStandardEditActionsP", "Bundle"]
@@ -1703,6 +1746,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "NKInputView"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLocale"]
 - !private ["So30UIResponderStandardEditActionsP", "NSLocalizedString"]
+- ["So30UIResponderStandardEditActionsP", "NSNotification"]
 - !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
 - !private ["So30UIResponderStandardEditActionsP", "State"]
 - !private ["So30UIResponderStandardEditActionsP", "TAG_B_BACKWARD"]
@@ -1753,32 +1797,39 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "tag"]
 - !private ["So30UIResponderStandardEditActionsP", "textDidChangeNotification"]
 - !private ["So30UIResponderStandardEditActionsP", "textView"]
+- ["So12UIScrollViewC", "NSNotification"]
 - !private ["So12UIScrollViewC", "inputAssistantItem"]
 - !private ["So12UIScrollViewC", "inputView"]
 - !private ["So12UIScrollViewC", "resignFirstResponder"]
 - !private ["So12UIScrollViewC", "textDidChangeNotification"]
+- ["So12UIScrollViewC", "textDidChangeSelectionRangeNotification"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTarget"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "isHidden"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "removeTarget"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "returnType"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "tag"]
+- ["So15UITextDraggableP", "NSNotification"]
 - !private ["So15UITextDraggableP", "delegate"]
 - !private ["So15UITextDraggableP", "inputAssistantItem"]
 - !private ["So15UITextDraggableP", "inputView"]
 - !private ["So15UITextDraggableP", "resignFirstResponder"]
 - !private ["So15UITextDraggableP", "textDidChangeNotification"]
+- ["So15UITextDroppableP", "NSNotification"]
 - !private ["So15UITextDroppableP", "delegate"]
 - !private ["So15UITextDroppableP", "inputAssistantItem"]
 - !private ["So15UITextDroppableP", "inputView"]
 - !private ["So15UITextDroppableP", "resignFirstResponder"]
 - !private ["So15UITextDroppableP", "textDidChangeNotification"]
+- ["So11UITextFieldC", "NSNotification"]
 - !private ["So11UITextFieldC", "delegate"]
 - !private ["So11UITextFieldC", "inputAssistantItem"]
 - !private ["So11UITextFieldC", "inputView"]
 - !private ["So11UITextFieldC", "resignFirstResponder"]
 - !private ["So11UITextFieldC", "textDidChangeNotification"]
+- ["So11UITextFieldC", "textDidChangeSelectionRangeNotification"]
 - !private ["So19UITextFieldDelegateP", "textFieldShouldReturn"]
+- ["So11UITextInputP", "NSNotification"]
 - !private ["So11UITextInputP", "beginningOfDocument"]
 - !private ["So11UITextInputP", "delegate"]
 - !private ["So11UITextInputP", "deleteBackward"]
@@ -1795,6 +1846,7 @@ depends-member:
 - !private ["So11UITextInputP", "textRange"]
 - !private ["So24UITextInputAssistantItemC", "leadingBarButtonGroups"]
 - !private ["So24UITextInputAssistantItemC", "trailingBarButtonGroups"]
+- ["So17UITextInputTraitsP", "NSNotification"]
 - !private ["So17UITextInputTraitsP", "beginningOfDocument"]
 - !private ["So17UITextInputTraitsP", "delegate"]
 - !private ["So17UITextInputTraitsP", "deleteBackward"]
@@ -1809,16 +1861,19 @@ depends-member:
 - !private ["So17UITextInputTraitsP", "selectedTextRange"]
 - !private ["So17UITextInputTraitsP", "textDidChangeNotification"]
 - !private ["So17UITextInputTraitsP", "textRange"]
+- ["So34UITextPasteConfigurationSupportingP", "NSNotification"]
 - !private ["So34UITextPasteConfigurationSupportingP", "delegate"]
 - !private ["So34UITextPasteConfigurationSupportingP", "inputAssistantItem"]
 - !private ["So34UITextPasteConfigurationSupportingP", "inputView"]
 - !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
 - !private ["So34UITextPasteConfigurationSupportingP", "textDidChangeNotification"]
 - !private ["So11UITextRangeC", "start"]
+- ["So10UITextViewC", "NSNotification"]
 - !private ["So10UITextViewC", "inputAssistantItem"]
 - !private ["So10UITextViewC", "inputView"]
 - !private ["So10UITextViewC", "resignFirstResponder"]
 - !private ["So10UITextViewC", "textDidChangeNotification"]
+- ["So10UITextViewC", "textDidChangeSelectionRangeNotification"]
 - !private ["So18UITraitEnvironmentP", "Bundle"]
 - !private ["So18UITraitEnvironmentP", "CGSize"]
 - !private ["So18UITraitEnvironmentP", "Event"]
@@ -1826,6 +1881,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "NKInputView"]
 - !private ["So18UITraitEnvironmentP", "NSLocale"]
 - !private ["So18UITraitEnvironmentP", "NSLocalizedString"]
+- ["So18UITraitEnvironmentP", "NSNotification"]
 - !private ["So18UITraitEnvironmentP", "NotificationCenter"]
 - !private ["So18UITraitEnvironmentP", "State"]
 - !private ["So18UITraitEnvironmentP", "TAG_B_BACKWARD"]
@@ -1883,6 +1939,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "NKInputView"]
 - !private ["So23UIUserActivityRestoringP", "NSLocale"]
 - !private ["So23UIUserActivityRestoringP", "NSLocalizedString"]
+- ["So23UIUserActivityRestoringP", "NSNotification"]
 - !private ["So23UIUserActivityRestoringP", "NotificationCenter"]
 - !private ["So23UIUserActivityRestoringP", "State"]
 - !private ["So23UIUserActivityRestoringP", "TAG_B_BACKWARD"]
@@ -1947,6 +2004,7 @@ depends-member:
 - ["So6UIViewC", "NKKeyboardType"]
 - !private ["So6UIViewC", "NSLocale"]
 - !private ["So6UIViewC", "NSLocalizedString"]
+- ["So6UIViewC", "NSNotification"]
 - !private ["So6UIViewC", "NotificationCenter"]
 - !private ["So6UIViewC", "State"]
 - ["So6UIViewC", "String"]
@@ -2004,6 +2062,7 @@ depends-member:
 - ["So6UIViewC", "setup"]
 - !private ["So6UIViewC", "tag"]
 - !private ["So6UIViewC", "textDidChangeNotification"]
+- ["So6UIViewC", "textDidChangeSelectionRangeNotification"]
 - ["So6UIViewC", "textView"]
 - ["So6UIViewC", "with"]
 - !private ["s14_ArrayProtocolP", "first"]
@@ -2016,8 +2075,10 @@ depends-member:
 - !private ["s19_HasContiguousBytesP", "first"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "Key"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Name"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "decimalSeparator"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "object"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
@@ -2028,6 +2089,8 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NKInputView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocale"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSNotification"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "State"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "TAG_B_BACKWARD"]
@@ -2098,6 +2161,8 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NKInputView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLocale"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLocalizedString"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSNotification"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Name"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "State"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TAG_B_BACKWARD"]
@@ -2163,7 +2228,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "current"]
 - !private ["s21_ObjectiveCBridgeableP", "decimalSeparator"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isHidden"]
 - !private ["s21_ObjectiveCBridgeableP", "numberPadWithMovingControl"]
 - !private ["s21_ObjectiveCBridgeableP", "returnType"]
@@ -2171,6 +2236,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s26_OptionalNilComparisonTypeV", "numberPadWithMovingControl"]
 - !private ["s20_SwiftNewtypeWrapperP", "decimalSeparator"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Bundle"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CGSize"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Event"]
@@ -2178,6 +2244,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NKInputView"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLocale"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSLocalizedString"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "NSNotification"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NotificationCenter"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "State"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "TAG_B_BACKWARD"]
@@ -2260,13 +2327,15 @@ depends-nominal:
 - "15NumericKeyboard11NKInputViewC23NKKeyboardReturnKeyTypeO"
 - "15NumericKeyboard11NKInputViewC14NKKeyboardTypeO"
 - "So8NSCodingP"
-- !private "So9NSCopyingP"
+- "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
 - !private "So21NSItemProviderWritingP"
 - !private "So8NSLocaleC"
+- "So14NSNotificationC"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- "So18NSNotificationNamea"
 - !private "So20NSNotificationCenterC"
 - !private "s9OptionSetP"
 - !private "Sq"
@@ -2285,34 +2354,34 @@ depends-nominal:
 - "So21UIAppearanceContainerP"
 - !private "So8UIButtonC"
 - !private "So7UIColorC"
-- !private "So30UIContentSizeCategoryAdjustingP"
-- !private "So9UIControlC"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So9UIControlC"
 - "So17UICoordinateSpaceP"
 - !private "So8UIDeviceC"
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - "So11UIFocusItemP"
 - "So20UIFocusItemContainerP"
-- !private "So30UIFocusItemScrollableContainerP"
+- "So30UIFocusItemScrollableContainerP"
 - "So24UIInputViewAudioFeedbackP"
-- !private "So10UIKeyInputP"
+- "So10UIKeyInputP"
 - "So24UILargeContentViewerItemP"
 - !private "So5UINibC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
-- !private "So12UIScrollViewC"
+- "So12UIScrollViewC"
 - !private "So35UISpringLoadedInteractionSupportingP"
-- !private "So15UITextDraggableP"
-- !private "So15UITextDroppableP"
-- !private "So11UITextFieldC"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextFieldC"
 - !private "So19UITextFieldDelegateP"
-- !private "So11UITextInputP"
+- "So11UITextInputP"
 - !private "So24UITextInputAssistantItemC"
-- !private "So17UITextInputTraitsP"
-- !private "So34UITextPasteConfigurationSupportingP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
 - !private "So11UITextRangeC"
-- !private "So10UITextViewC"
+- "So10UITextViewC"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - !private "So20UIUserInterfaceIdiomV"
@@ -2322,12 +2391,12 @@ depends-nominal:
 - !private "s24_DestructorSafeContainerP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s19_HasContiguousBytesP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
-- !private "s21_ObjectiveCBridgeableP"
+- "s21_ObjectiveCBridgeableP"
 - !private "s26_OptionalNilComparisonTypeV"
-- !private "s20_SwiftNewtypeWrapperP"
+- "s20_SwiftNewtypeWrapperP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
@@ -3518,4 +3587,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3382cf4facb52c1dc7148316f2e1b390"
+interface-hash: "0675089aa161ad9fccd8f6f55700d3ec"

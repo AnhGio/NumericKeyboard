@@ -451,10 +451,9 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             }
             
             if isTextField() {
-                NotificationCenter.default.post(name: UITextField.textDidChangeNotification, object: self.textView)
-            }
-            else if isTextView() {
-                NotificationCenter.default.post(name: UITextView.textDidChangeNotification, object: self.textView)
+                NotificationCenter.default.post(name: UITextField.textDidChangeSelectionRangeNotification, object: self.textView)
+            } else if isTextView() {
+                NotificationCenter.default.post(name: UITextView.textDidChangeSelectionRangeNotification, object: self.textView)
             }
             
         case TAG_B_BACKWARD:
@@ -466,10 +465,9 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             }
             
             if isTextField() {
-                NotificationCenter.default.post(name: UITextField.textDidChangeNotification, object: self.textView)
-            }
-            else if isTextView() {
-                NotificationCenter.default.post(name: UITextView.textDidChangeNotification, object: self.textView)
+                NotificationCenter.default.post(name: UITextField.textDidChangeSelectionRangeNotification, object: self.textView)
+            } else if isTextView() {
+                NotificationCenter.default.post(name: UITextView.textDidChangeSelectionRangeNotification, object: self.textView)
             }
             
         default:
@@ -491,4 +489,12 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             break
         }
     }
+}
+
+extension UITextField {
+    public static let textDidChangeSelectionRangeNotification = NSNotification.Name("UITextField_TextDidChangeSelectionRangeNotification")
+}
+
+extension UITextView {
+    public static let textDidChangeSelectionRangeNotification = NSNotification.Name("UITextView_TextDidChangeSelectionRangeNotification")
 }

@@ -450,12 +450,26 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
                 textView.selectedTextRange = textView.textRange(from: newPosition, to: newPosition)
             }
             
+            if isTextField() {
+                NotificationCenter.default.post(name: UITextField.textDidChangeNotification, object: self.textView)
+            }
+            else if isTextView() {
+                NotificationCenter.default.post(name: UITextView.textDidChangeNotification, object: self.textView)
+            }
+            
         case TAG_B_BACKWARD:
             guard keyboardType == .numberPadWithMovingControl, let textView = textView,
                 let selectedRange = textView.selectedTextRange else { break }
             
             if let newPosition = textView.position(from: selectedRange.start, offset: -1) {
                 textView.selectedTextRange = textView.textRange(from: newPosition, to: newPosition)
+            }
+            
+            if isTextField() {
+                NotificationCenter.default.post(name: UITextField.textDidChangeNotification, object: self.textView)
+            }
+            else if isTextView() {
+                NotificationCenter.default.post(name: UITextView.textDidChangeNotification, object: self.textView)
             }
             
         default:

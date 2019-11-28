@@ -2090,76 +2090,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userInterfaceIdiom"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGSize"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Event"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Key"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Locale"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NKInputView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLocale"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSLocalizedString"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "State"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TAG_B_BACKWARD"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TAG_B_DELETE"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TAG_B_DISMISS"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TAG_B_FORWARD"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TAG_B_RETURN"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIColor"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIControl"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIDevice"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UINib"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITextField"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITextView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIUserInterfaceIdiom"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTarget"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "additionalButtonTouched"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bBackward"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bDelete"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bDot"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bForward"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft1"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft1Action"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft2"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft2Action"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft3"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft3Action"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft4"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bLeft4Action"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bNext"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bPlus"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "enableInputClicksWhenVisible"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "inputAssistantItem"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "inputView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiate"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTextField"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTextView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyboardType"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingBarButtonGroups"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playInputClick"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAdditionalButton"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeTarget"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeToolbar"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resignFirstResponder"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "returnType"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setTitle"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setup"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tag"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textDidChangeNotification"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "textView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailingBarButtonGroups"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInterfaceIdiom"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
 - !private ["s21_ObjectiveCBridgeableP", "current"]
 - !private ["s21_ObjectiveCBridgeableP", "decimalSeparator"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
@@ -2324,39 +2254,36 @@ depends-nominal:
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s26_OptionalNilComparisonTypeV"
 - !private "s20_SwiftNewtypeWrapperP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/arm64.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/arm64-apple-ios.swiftinterface"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Metal.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Darwin.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Foundation.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/Swift.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/UIKit.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/armv7.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/armv7.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/sys/_types/_timeval64.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/sys/_types/_ucontext64.h"

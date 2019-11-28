@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "96ff45d7fb8e253d4e3061faaa77be80"
-build_time: [1574914803, 757239000]
+build_time: [1574916310, 426710000]
 inputs:
-  "/Users/thinhgio/NumericKeyboard/NumericKeyboard/Classes/NKInputView.swift": [1574914797, 868306113]
+  "/Users/thinhgio/NumericKeyboard/NumericKeyboard/Classes/NKInputView.swift": [1574916309, 637127566]
   "/Users/thinhgio/NumericKeyboard/NumericKeyboard/Classes/NKKeyboardButton.swift": [1574907583, 71541286]

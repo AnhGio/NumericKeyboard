@@ -13,6 +13,46 @@
             <rect key="frame" x="0.0" y="0.0" width="768" height="313"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <button hidden="YES" opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doS-CI-MZb" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="494" y="216.5" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                    <state key="normal" title="＜　前へ">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateNormal">
+                            <color key="value" red="0.71764705880000002" green="0.74901960779999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateHighlighted">
+                            <color key="value" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="B2M-JM-Gh3"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7d-vo-0pK" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
+                    <rect key="frame" x="594" y="216.5" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                    <state key="normal" title="次へ　＞">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateNormal">
+                            <color key="value" red="0.71764705880000002" green="0.74901960779999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateHighlighted">
+                            <color key="value" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="dfe-OT-sch"/>
+                    </connections>
+                </button>
                 <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0O-fJ-CYU" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
                     <rect key="frame" x="194" y="16.5" width="80" height="80"/>
                     <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -408,49 +448,6 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </button>
-                <button hidden="YES" opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7d-vo-0pK" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="674" y="16.5" width="86" height="40"/>
-                    <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="dVc-om-7vm"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
-                    <state key="normal" title="次へ　＞">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateNormal">
-                            <color key="value" red="0.71764705880000002" green="0.74901960779999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateHighlighted">
-                            <color key="value" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                    <connections>
-                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="dfe-OT-sch"/>
-                    </connections>
-                </button>
-                <button hidden="YES" opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doS-CI-MZb" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
-                    <rect key="frame" x="585" y="16.5" width="86" height="40"/>
-                    <color key="backgroundColor" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
-                    <state key="normal" title="＜　前へ">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </state>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateNormal">
-                            <color key="value" red="0.71764705880000002" green="0.74901960779999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="color" keyPath="backgroundColorForStateHighlighted">
-                            <color key="value" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                    <connections>
-                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="B2M-JM-Gh3"/>
-                    </connections>
-                </button>
             </subviews>
             <color key="backgroundColor" red="0.83921568627450982" green="0.85490196078431369" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -461,6 +458,7 @@
                 <constraint firstItem="xfJ-tP-FLt" firstAttribute="leading" secondItem="d0O-fJ-CYU" secondAttribute="leading" id="2Pw-3g-RdH"/>
                 <constraint firstItem="1p0-zW-oal" firstAttribute="leading" secondItem="Ab8-E1-16p" secondAttribute="leading" id="2cK-N7-V8m"/>
                 <constraint firstItem="aBh-n8-4YM" firstAttribute="centerY" secondItem="xfJ-tP-FLt" secondAttribute="centerY" id="2eE-xa-TuK"/>
+                <constraint firstItem="doS-CI-MZb" firstAttribute="leading" secondItem="hZI-aM-QDM" secondAttribute="leading" id="2yP-qG-7N2"/>
                 <constraint firstItem="IVV-wm-yN2" firstAttribute="leading" secondItem="hZI-aM-QDM" secondAttribute="leading" id="3Wu-7Y-LUS"/>
                 <constraint firstItem="aBh-n8-4YM" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="414-LP-LhC"/>
                 <constraint firstItem="d0O-fJ-CYU" firstAttribute="top" secondItem="Ab8-E1-16p" secondAttribute="top" id="58e-gd-1jY"/>
@@ -472,19 +470,21 @@
                 <constraint firstItem="jbg-g1-63I" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="7dT-Sf-Ch1"/>
                 <constraint firstItem="f4k-T7-cfU" firstAttribute="leading" secondItem="FRG-jj-cDY" secondAttribute="leading" id="8vv-au-xeR"/>
                 <constraint firstItem="rHB-9R-CP7" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="BfD-Qn-7PI"/>
-                <constraint firstItem="g7d-vo-0pK" firstAttribute="height" secondItem="doS-CI-MZb" secondAttribute="height" id="DS9-Gx-TBD"/>
+                <constraint firstItem="g7d-vo-0pK" firstAttribute="width" secondItem="doS-CI-MZb" secondAttribute="width" id="FEP-VR-NhH"/>
                 <constraint firstAttribute="trailing" secondItem="fXF-oo-oYB" secondAttribute="trailing" constant="8" id="Fa7-EG-2mB"/>
                 <constraint firstItem="f4k-T7-cfU" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="Fk2-hE-uiC"/>
                 <constraint firstItem="nht-rx-RhO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Gp5-kB-gpL"/>
                 <constraint firstItem="lC4-EB-Q98" firstAttribute="bottom" secondItem="jbg-g1-63I" secondAttribute="bottom" id="Hcx-2a-OVe"/>
                 <constraint firstItem="hZI-aM-QDM" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="Hws-Hq-mlD"/>
+                <constraint firstItem="doS-CI-MZb" firstAttribute="width" secondItem="hZI-aM-QDM" secondAttribute="width" id="KYc-4E-Nhg"/>
                 <constraint firstItem="nht-rx-RhO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Mql-3e-xQD"/>
                 <constraint firstItem="nht-rx-RhO" firstAttribute="leading" secondItem="FRG-jj-cDY" secondAttribute="trailing" constant="10" id="Nuq-ox-Ryb"/>
                 <constraint firstItem="xfJ-tP-FLt" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="O7L-zg-00E"/>
-                <constraint firstItem="doS-CI-MZb" firstAttribute="centerY" secondItem="g7d-vo-0pK" secondAttribute="centerY" id="OoK-D0-oVf"/>
+                <constraint firstItem="doS-CI-MZb" firstAttribute="bottom" secondItem="lC4-EB-Q98" secondAttribute="bottom" id="OAw-tK-pXX"/>
                 <constraint firstItem="gdp-oH-mXS" firstAttribute="leading" secondItem="nht-rx-RhO" secondAttribute="trailing" constant="10" id="Ot4-1q-TXc"/>
-                <constraint firstAttribute="trailing" secondItem="g7d-vo-0pK" secondAttribute="trailing" constant="8" id="TTW-Nw-fKf"/>
+                <constraint firstItem="g7d-vo-0pK" firstAttribute="height" secondItem="doS-CI-MZb" secondAttribute="height" id="R1Z-5c-sZR"/>
                 <constraint firstItem="lC4-EB-Q98" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="UWq-a0-fil"/>
+                <constraint firstItem="g7d-vo-0pK" firstAttribute="centerY" secondItem="doS-CI-MZb" secondAttribute="centerY" id="VUM-94-lrw"/>
                 <constraint firstItem="rHB-9R-CP7" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="W3c-o3-xhM"/>
                 <constraint firstItem="SEW-66-qQt" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="WdU-Lm-FTj"/>
                 <constraint firstAttribute="trailing" secondItem="Dhw-6S-9Wg" secondAttribute="trailing" constant="8" id="Zgc-KL-tzd"/>
@@ -494,19 +494,20 @@
                 <constraint firstItem="rHB-9R-CP7" firstAttribute="centerY" secondItem="xfJ-tP-FLt" secondAttribute="centerY" id="afB-Un-KHq"/>
                 <constraint firstItem="lC4-EB-Q98" firstAttribute="leading" secondItem="gdp-oH-mXS" secondAttribute="leading" id="bNQ-gl-bob"/>
                 <constraint firstItem="nht-rx-RhO" firstAttribute="top" secondItem="FRG-jj-cDY" secondAttribute="top" id="cOr-hB-mTE"/>
-                <constraint firstItem="g7d-vo-0pK" firstAttribute="top" secondItem="hZI-aM-QDM" secondAttribute="top" id="cZf-qU-B3a"/>
                 <constraint firstItem="f4k-T7-cfU" firstAttribute="centerY" secondItem="xfJ-tP-FLt" secondAttribute="centerY" id="csh-C8-cM8"/>
                 <constraint firstItem="hZI-aM-QDM" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="f1i-PG-bJI"/>
                 <constraint firstItem="gdp-oH-mXS" firstAttribute="top" secondItem="FRG-jj-cDY" secondAttribute="top" id="fBE-7N-J1w"/>
                 <constraint firstItem="Ab8-E1-16p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="fIS-hz-ojV"/>
                 <constraint firstItem="f4k-T7-cfU" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="fcd-15-3GP"/>
                 <constraint firstItem="gdp-oH-mXS" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="hyw-k9-Zon"/>
+                <constraint firstItem="doS-CI-MZb" firstAttribute="height" secondItem="hZI-aM-QDM" secondAttribute="height" id="iYL-a8-ehb"/>
                 <constraint firstItem="UXc-os-Fr2" firstAttribute="top" secondItem="WO4-fJ-88R" secondAttribute="bottom" constant="18" id="ipZ-o1-XZf"/>
                 <constraint firstItem="rHB-9R-CP7" firstAttribute="leading" secondItem="hZI-aM-QDM" secondAttribute="leading" id="jU2-iQ-iWq"/>
                 <constraint firstItem="Dhw-6S-9Wg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jdV-ch-33E"/>
                 <constraint firstItem="IVV-wm-yN2" firstAttribute="bottom" secondItem="jbg-g1-63I" secondAttribute="bottom" id="kUd-9M-bjv"/>
                 <constraint firstItem="jbg-g1-63I" firstAttribute="leading" secondItem="d0O-fJ-CYU" secondAttribute="leading" id="kzf-cK-FC2"/>
                 <constraint firstItem="UXc-os-Fr2" firstAttribute="top" secondItem="WO4-fJ-88R" secondAttribute="bottom" constant="18" id="lo8-Zf-E3R"/>
+                <constraint firstItem="g7d-vo-0pK" firstAttribute="leading" secondItem="IVV-wm-yN2" secondAttribute="trailing" constant="20" id="lq4-zX-AKA"/>
                 <constraint firstItem="SEW-66-qQt" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="nbk-1X-w3I"/>
                 <constraint firstItem="SEW-66-qQt" firstAttribute="bottom" secondItem="jbg-g1-63I" secondAttribute="bottom" id="obb-dL-ZPe"/>
                 <constraint firstItem="IVV-wm-yN2" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="pM7-P5-CRW"/>
@@ -516,7 +517,6 @@
                 <constraint firstItem="lC4-EB-Q98" firstAttribute="width" secondItem="d0O-fJ-CYU" secondAttribute="width" id="tTd-xn-Uch"/>
                 <constraint firstItem="FRG-jj-cDY" firstAttribute="height" secondItem="d0O-fJ-CYU" secondAttribute="height" id="upP-cO-VWv"/>
                 <constraint firstItem="WO4-fJ-88R" firstAttribute="top" secondItem="Ab8-E1-16p" secondAttribute="bottom" constant="19" id="vY2-zE-7DO"/>
-                <constraint firstItem="g7d-vo-0pK" firstAttribute="leading" secondItem="doS-CI-MZb" secondAttribute="trailing" constant="3" id="w9E-Tg-58q"/>
                 <constraint firstItem="nht-rx-RhO" firstAttribute="top" secondItem="d0O-fJ-CYU" secondAttribute="top" id="wXy-7n-vBx"/>
                 <constraint firstItem="WO4-fJ-88R" firstAttribute="leading" secondItem="Ab8-E1-16p" secondAttribute="leading" id="y7z-Ey-3it"/>
                 <constraint firstItem="aBh-n8-4YM" firstAttribute="leading" secondItem="gdp-oH-mXS" secondAttribute="leading" id="yLA-C5-lNJ"/>

@@ -395,14 +395,25 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             let char = buttonsValues[sender.tag]
             textView?.insertText(char)
             
+            print("Thinhnt22222-----\(textView?.selectedTextRange)")
+            
             if keyboardType == .numberPadWithMovingControl, let textView = textView,
                 let selectedRange = textView.selectedTextRange {
+                
+                
+                
                 let cursorPosition = textView.offset(from: textView.beginningOfDocument, to: selectedRange.start)
                 let textCount = textView.offset(from: textView.beginningOfDocument, to: textView.endOfDocument)
+                
+                print("Thinhnt22222-----cursorPosition: \(cursorPosition) < \(textCount)")
+                
                 if cursorPosition < textCount,
                     let replaceRange = textView.textRange(from: textView.position(from: selectedRange.start, offset: 0)!,
                                                           to: textView.position(from: selectedRange.start, offset: 1)!) {
                     textView.replace(replaceRange, withText: "")
+                    
+                    print("Thinhnt22222-----replaceRange: \(replaceRange)")
+                    
                 }
             }
             
@@ -450,9 +461,12 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             }
             
         case TAG_B_BACKWARD:
+            guard keyboardType == .numberPadWithMovingControl, let textView = textView,
+                let selectedRange = textView.selectedTextRange else { break }
             
-            break
-            //            textField.selectedTextRange = textField.textRange(from: newPosition, to: newPosition)
+            if let newPosition = textView.position(from: selectedRange.start, offset: -1) {
+                textView.selectedTextRange = textView.textRange(from: newPosition, to: newPosition)
+            }
             
         default:
             break

@@ -427,6 +427,9 @@
                             <color key="value" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="dfe-OT-sch"/>
+                    </connections>
                 </button>
                 <button hidden="YES" opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doS-CI-MZb" customClass="NKKeyboardButton" customModule="NumericKeyboard" customModuleProvider="target">
                     <rect key="frame" x="585" y="16.5" width="86" height="40"/>
@@ -444,6 +447,9 @@
                             <color key="value" red="0.99607843139999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="buttonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="B2M-JM-Gh3"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.83921568627450982" green="0.85490196078431369" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

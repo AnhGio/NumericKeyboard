@@ -167,8 +167,8 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
     fileprivate let TAG_B_DISMISS = 12
     fileprivate let TAG_B_DELETE = 13
     fileprivate let TAG_B_RETURN = 14
-    fileprivate let TAG_B_FORWARD = 21
-    fileprivate let TAG_B_BACKWARD = 22
+    fileprivate let TAG_B_BACKWARD = 21
+    fileprivate let TAG_B_FORWARD = 22
     
     fileprivate var bLeft1Action: (() -> Void)?
     fileprivate var bLeft2Action: (() -> Void)?
@@ -395,25 +395,15 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
             let char = buttonsValues[sender.tag]
             textView?.insertText(char)
             
-            print("Thinhnt22222-----\(textView?.selectedTextRange)")
-            
             if keyboardType == .numberPadWithMovingControl, let textView = textView,
                 let selectedRange = textView.selectedTextRange {
-                
-                
-                
                 let cursorPosition = textView.offset(from: textView.beginningOfDocument, to: selectedRange.start)
                 let textCount = textView.offset(from: textView.beginningOfDocument, to: textView.endOfDocument)
-                
-                print("Thinhnt22222-----cursorPosition: \(cursorPosition) < \(textCount)")
                 
                 if cursorPosition < textCount,
                     let replaceRange = textView.textRange(from: textView.position(from: selectedRange.start, offset: 0)!,
                                                           to: textView.position(from: selectedRange.start, offset: 1)!) {
                     textView.replace(replaceRange, withText: "")
-                    
-                    print("Thinhnt22222-----replaceRange: \(replaceRange)")
-                    
                 }
             }
             

@@ -399,8 +399,10 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
                 let selectedRange = textView.selectedTextRange {
                 let cursorPosition = textView.offset(from: textView.beginningOfDocument, to: selectedRange.start)
                 let textCount = textView.offset(from: textView.beginningOfDocument, to: textView.endOfDocument)
-                if cursorPosition < textCount {
-                    textView.replace(selectedRange, withText: "")
+                if cursorPosition < textCount,
+                    let replaceRange = textView.textRange(from: textView.position(from: selectedRange.start, offset: 0)!,
+                                                          to: textView.position(from: selectedRange.start, offset: 1)!) {
+                    textView.replace(replaceRange, withText: "")
                 }
             }
             
